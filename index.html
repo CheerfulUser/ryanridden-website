@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ryan Ridden — Astrophysicist at the University of Canterbury specialising in time-domain astronomy, supernovae, and open-source astronomical software.">
+    <title>Ryan Riddenr | Astrophysicist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+====================================================== -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Ryan <span>Ridden</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="#software">Software</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="outreach.html">Outreach</a></li>
+            <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ======================================================
+     HERO
+====================================================== -->
+<section id="hero">
+    <div class="hero-bg-image" style="background-image:url('assets/DSC_0866.jpg');"></div>
+    <div class="stars"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-content container">
+        <div class="hero-badge">Rutherford Postdoctoral Fellow &mdash; University of Canterbury</div>
+        <h1 class="hero-name">Ryan <span class="highlight">Ridden</span></h1>
+        <p class="hero-title">Astrophysicist &bull; Time-Domain Astronomer &bull; Open-Source Developer</p>
+        <p class="hero-description">
+            I study the <strong>explosive, transient universe</strong> — from supernovae and gamma-ray bursts
+            to cataclysmic variables and tidal disruption events — using space telescopes like
+            <strong>TESS</strong> and <strong>Kepler</strong>. I also build open-source tools that make
+            it easier for everyone to do time-domain science.
+        </p>
+        <div class="hero-actions">
+            <a href="research.html" class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                View Research
+            </a>
+            <a href="#software" class="btn btn-outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                Explore Software
+            </a>
+            <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener" class="btn btn-outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                ORCID Profile
+            </a>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <span class="stat-value">40+</span>
+                <span class="stat-label">Publications</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">20</span>
+                <span class="stat-label">h-index</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">16,000+</span>
+                <span class="stat-label">Citations</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value">$1.4M</span>
+                <span class="stat-label">NZD Funding</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     ABOUT
+====================================================== -->
+<section id="about">
+    <div class="container">
+        <div class="section-label">Who I Am</div>
+        <div class="about-grid">
+            <div class="about-photo-block">
+                <div class="about-photo">
+                    <img src="assets/ryan.jpg" alt="Ryan Ridden-Harper">
+                </div>
+                <div class="about-links">
+                    <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener" class="about-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zm-1.374 17.188H8.462V8.25h2.164v8.938zm-1.082-10.29c-.692 0-1.254-.562-1.254-1.254s.562-1.254 1.254-1.254 1.254.562 1.254 1.254-.562 1.254-1.254 1.254zm9.33 10.29h-2.163V12.75c0-.808-.016-1.848-1.126-1.848-1.127 0-1.3.88-1.3 1.788v4.498h-2.163V8.25h2.077v1.22h.03c.289-.547.997-1.124 2.051-1.124 2.194 0 2.598 1.445 2.598 3.324v5.518z"/></svg>
+                        ORCID
+                    </a>
+                    <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener" class="about-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub (CheerfulUser)
+                    </a>
+                    <a href="https://bsky.app/profile/ryanridden.bsky.social" target="_blank" rel="noopener" class="about-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.204-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/></svg>
+                        Bluesky
+                    </a>
+                    <a href="mailto:ryan.ridden@canterbury.ac.nz" class="about-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        ryan.ridden@canterbury.ac.nz
+                    </a>
+                </div>
+            </div>
+
+            <div class="about-bio">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    I am a <strong>Rutherford Postdoctoral Research Fellow</strong> at the
+                    <strong>University of Canterbury</strong> in Christchurch, New Zealand, working at the frontier of
+                    <strong>time-domain astronomy</strong>. I have been awarded <strong>$1.4 million NZD</strong> in
+                    research funding to develop novel data science techniques for data-driven astrophysics,
+                    and I lead a vibrant research group of 12 members.
+                </p>
+                <p>
+                    I completed my <strong>PhD at the Australian National University</strong> (2019) and hold a
+                    BSc (Hons) First Class in Mathematical Physics from the University of Canterbury.
+                    My research spans cataclysmic variables, supernovae, gamma-ray bursts, tidal disruption events,
+                    interstellar comets, planetary defence, and the impact of satellite constellations on astronomy.
+                </p>
+                <p>
+                    I founded the <strong>Cosmic Cataclysms</strong> international collaboration and recently partnered
+                    with the <strong>Zooniverse Project</strong> to build human-classified training data for the next
+                    generation of machine learning models in astrophysics. I coordinate international observing
+                    programmes at Ōtehīwai | Mt John Observatory.
+                </p>
+                <p>
+                    I build open-source software used by research groups around the world, and I am a committed
+                    <strong>science communicator</strong> — through YouTube, the Beatrice Hill Tinsley Lecture series,
+                    100+ school and public talks, and regular media engagement.
+                </p>
+
+                <div class="about-awards" style="margin-top:1.75rem; margin-bottom:1.75rem;">
+                    <h3 style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:0.75rem;">Awards &amp; Fellowships</h3>
+                    <div style="display:flex; flex-direction:column; gap:0.4rem;">
+                        <div style="display:flex; gap:0.75rem; align-items:baseline; font-size:0.88rem;">
+                            <span style="color:var(--accent); font-weight:600; min-width:2.5rem;">2023</span>
+                            <span style="color:var(--muted);">Rutherford Foundation Postdoctoral Fellowship &mdash; $190K NZD</span>
+                        </div>
+                        <div style="display:flex; gap:0.75rem; align-items:baseline; font-size:0.88rem;">
+                            <span style="color:var(--accent); font-weight:600; min-width:2.5rem;">2023</span>
+                            <span style="color:var(--muted);">Marsden Fund Fast Start &mdash; $360K NZD &mdash; "What physics powers the fastest explosions in the Universe?"</span>
+                        </div>
+                        <div style="display:flex; gap:0.75rem; align-items:baseline; font-size:0.88rem;">
+                            <span style="color:var(--accent); font-weight:600; min-width:2.5rem;">2023</span>
+                            <span style="color:var(--muted);">Beatrice Hill Tinsley Lecturer</span>
+                        </div>
+                        <div style="display:flex; gap:0.75rem; align-items:baseline; font-size:0.88rem;">
+                            <span style="color:var(--accent); font-weight:600; min-width:2.5rem;">2021</span>
+                            <span style="color:var(--muted);">NASA ADAP Grant (SynDiff) &mdash; $400K USD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-interests">
+                    <h3>Research Interests</h3>
+                    <div class="tags">
+                        <span class="tag tag-blue">Time-Domain Astronomy</span>
+                        <span class="tag tag-blue">Supernovae</span>
+                        <span class="tag tag-blue">TESS &amp; Kepler</span>
+                        <span class="tag tag-purple">Gamma-Ray Bursts</span>
+                        <span class="tag tag-purple">Cataclysmic Variables</span>
+                        <span class="tag tag-purple">Tidal Disruption Events</span>
+                        <span class="tag tag-gold">Interstellar Objects</span>
+                        <span class="tag tag-gold">Planetary Defence</span>
+                        <span class="tag tag-green">Open-Source Software</span>
+                        <span class="tag tag-green">Machine Learning</span>
+                        <span class="tag tag-green">Science Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     RESEARCH
+====================================================== -->
+<section id="research">
+    <div class="container">
+        <div class="section-label">Publications</div>
+        <h2 class="section-title">Research</h2>
+        <p class="section-subtitle">
+            Time-domain astrophysics, supernovae, GRBs, and open-source software.
+            Full list with filters and collaborator map on the Research page.
+        </p>
+
+        <div class="recent-pub-teaser">
+
+            <!-- SN 2019vxm -->
+            <div class="pub-card" data-category="supernovae grb student" data-year="2025" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">SN 2019vxm: A Shocking Coincidence between Fermi and TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-student">Student Paper</span>
+                        <span class="badge badge-new">Preprint 2025</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal (submitted)</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">The first superluminous Type IIn supernova caught on the rise with TESS — led by PhD student Zac Lane, with a 3.3&sigma; coincidence with X-ray transient GRB191117A pointing to shock breakout from a luminous blue variable progenitor.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Lane, Z. G., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links"><a href="https://arxiv.org/abs/2511.15975" target="_blank" rel="noopener" class="pub-link">arXiv</a></div>
+                </div>
+            </div>
+
+            <!-- 3I/ATLAS -->
+            <div class="pub-card" data-category="solar-system" data-year="2025" data-citations="22" data-journal="Monthly Notices of the Royal Astronomical Society Letters">
+                <div class="pub-header">
+                    <h3 class="pub-title">Snapshot of a New Interstellar Comet: 3I/ATLAS Has a Red and Featureless Spectrum</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">22 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">MNRAS Letters</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">Rapid spectroscopic characterisation of 3I/ATLAS — only the third interstellar object ever detected passing through the Solar System. A featureless, steeply red spectrum provides the first baseline for monitoring this visitor.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Opitom, C., Snodgrass, C. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnrasl/slaf085" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- TESSELLATE -->
+            <div class="pub-card" data-category="software lead student" data-year="2025" data-citations="1" data-journal="Astronomical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">TESSELLATE: Piecing Together the Variable Sky with TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Key Contributor</span>
+                        <span class="badge badge-software">Software</span>
+                        <span class="badge badge-student">Student Paper</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astronomical Journal</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">A dedicated pipeline for untargeted all-sky transient searches in TESS data to magnitude 17, deployed at supercomputer scale. Enables systematic detection of supernovae, GRBs, stellar flares, and unknown transients without pre-selecting targets.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Roxburgh, H., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2501.07492" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                        <a href="https://github.com/CheerfulUser/tessellate" target="_blank" rel="noopener" class="pub-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem;">
+            <a href="research.html" class="btn btn-outline">
+                View All Research &rarr;
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     COLLABORATOR MAP
+====================================================== -->
+<section id="collaborators" style="background: var(--surface);">
+    <div class="container">
+        <div class="section-label">Global Network</div>
+        <h2 class="section-title">Collaborators</h2>
+        <p class="section-subtitle" style="margin-bottom:2rem;">
+            Active collaborations across the world — from STScI and Harvard to Swinburne, Arizona, and beyond.
+        </p>
+        <div class="collab-map-wrap">
+            <svg id="collabMap" style="width:100%; height:auto; display:block; border-radius:var(--radius-lg); background:var(--bg);"></svg>
+        </div>
+        <!-- Legend -->
+        <div class="collab-legend" style="display:flex; flex-wrap:wrap; gap:0.6rem 1.5rem; margin-top:1.25rem; justify-content:center;">
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:10px; height:10px; border-radius:50%; background:#9b6dff; display:inline-block; box-shadow:0 0 6px #9b6dff;"></span> Home
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#f97b4f; display:inline-block;"></span> Supernovae
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#4fecf9; display:inline-block;"></span> Solar System / Interstellar
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#c084fc; display:inline-block;"></span> GRBs
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#4fca8b; display:inline-block;"></span> General / Surveys
+            </span>
+        </div>
+
+        <!-- Institution list -->
+        <div class="collab-inst-grid" style="margin-top:2rem; display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:0.5rem 1.5rem;">
+            <div class="collab-inst-group">
+                <div class="collab-inst-heading" style="color:#f97b4f;">Supernovae</div>
+                <ul class="collab-inst-list">
+                    <li>STScI &mdash; Baltimore, USA</li>
+                    <li>Harvard / CfA &mdash; Cambridge, USA</li>
+                    <li>UC Santa Cruz &mdash; USA</li>
+                    <li>UC Berkeley &mdash; USA</li>
+                    <li>Northwestern &mdash; Evanston, USA</li>
+                    <li>Columbia / CCA &mdash; New York, USA</li>
+                    <li>Texas A&amp;M &mdash; USA</li>
+                    <li>Carnegie Observatories &mdash; Pasadena, USA</li>
+                    <li>Queen's Belfast &mdash; UK</li>
+                    <li>Swinburne Univ. &mdash; Melbourne, Australia</li>
+                    <li>ANU &mdash; Canberra, Australia</li>
+                </ul>
+            </div>
+            <div class="collab-inst-group">
+                <div class="collab-inst-heading" style="color:#4fecf9;">Solar System / Interstellar</div>
+                <ul class="collab-inst-list">
+                    <li>Univ. of Edinburgh &mdash; UK</li>
+                    <li>Hawaii / IfA &mdash; Honolulu, USA</li>
+                    <li>Univ. of Arizona &mdash; Tucson, USA</li>
+                </ul>
+                <div class="collab-inst-heading" style="color:#c084fc; margin-top:1rem;">GRBs</div>
+                <ul class="collab-inst-list">
+                    <li>NASA Goddard &mdash; Greenbelt, USA</li>
+                    <li>MIT &mdash; Cambridge, USA</li>
+                </ul>
+                <div class="collab-inst-heading" style="color:#4fca8b; margin-top:1rem;">General / Surveys</div>
+                <ul class="collab-inst-list">
+                    <li>Curtin Univ. &mdash; Perth, Australia</li>
+                    <li>Univ. of Queensland &mdash; Brisbane, Australia</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     SOFTWARE
+====================================================== -->
+<section id="software">
+    <div class="container">
+        <div class="section-label">Open Source</div>
+        <h2 class="section-title">Software</h2>
+        <p class="section-subtitle">
+            Tools built for the astronomical community — free, open-source, and maintained on
+            <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener">GitHub</a>.
+        </p>
+
+        <div class="software-grid">
+
+            <!-- TESSreduce -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        27
+                    </div>
+                </div>
+                <div class="sw-name">TESSreduce</div>
+                <div class="sw-tagline">Transient-focused TESS data reduction</div>
+                <p class="sw-description">
+                    The go-to pipeline for extracting transient signals from NASA TESS space telescope data.
+                    Handles background subtraction, image differencing, PSF and aperture photometry,
+                    and flux calibration to physical units via PS1 and SkyMapper cross-matching.
+                    Supports direct download via TESScut and MAST. Widely adopted across the
+                    time-domain community.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">TESS</span>
+                    <span class="sw-tag">Photometry</span>
+                    <span class="sw-tag">Transients</span>
+                    <span class="sw-tag">MIT License</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/TESSreduce" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/TESSreduce#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- starkiller -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        4
+                    </div>
+                </div>
+                <div class="sw-name">starkiller</div>
+                <div class="sw-tagline">IFU stellar &amp; satellite contamination removal</div>
+                <p class="sw-description">
+                    Forward-modeling pipeline for subtracting stars and satellite streaks from
+                    integral field unit (IFU) spectroscopic datacubes. Uses Gaia DR3 for source
+                    identification, extracts PSFs from the data itself, matches stellar spectra
+                    against the CK library, and applies Gaia photometry for flux calibration.
+                    Essential for studying extended sources embedded in crowded stellar fields.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">IFU Spectroscopy</span>
+                    <span class="sw-tag">Gaia</span>
+                    <span class="sw-tag">Satellites</span>
+                    <span class="sw-tag">MIT License</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/starkiller" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/starkiller#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- calibrimbore -->
+
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        3
+                    </div>
+                </div>
+                <div class="sw-name">calibrimbore</div>
+                <div class="sw-tagline">Photometric calibration via PS1 composite filters</div>
+                <p class="sw-description">
+                    Creates composite Pan-STARRS 1 filters to calibrate any optical photometric
+                    system to the PS1 standard. Calculates linear combinations of PS1 grizy
+                    bandpasses with cubic colour corrections, retrieves reference stars via Vizier,
+                    accounts for extinction using stellar locus regression, and exports
+                    transformation coefficients in ASCII or CSV. Makes cross-system photometric
+                    comparison straightforward.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">Photometry</span>
+                    <span class="sw-tag">Pan-STARRS</span>
+                    <span class="sw-tag">Calibration</span>
+                    <span class="sw-tag">MIT License</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/calibrimbore" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/calibrimbore#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- tessellate -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        New
+                    </div>
+                </div>
+                <div class="sw-name">tessellate</div>
+                <div class="sw-tagline">Untargeted TESS transient survey pipeline</div>
+                <p class="sw-description">
+                    TESS Extensive Lightcurve Logging and Analysis of Transient Events. A dedicated
+                    pipeline for performing systematic, untargeted searches for all variable phenomena
+                    in TESS data — without pre-selecting targets. Searches to ~magnitude 17, integrates
+                    with TESSreduce for data reduction, and is optimised for SLURM supercomputer
+                    deployment. Enables community-scale transient surveys across the whole TESS sky.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">TESS</span>
+                    <span class="sw-tag">Transient Survey</span>
+                    <span class="sw-tag">HPC / SLURM</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/tessellate" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/tessellate#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- Pouakai -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars" style="color:var(--muted); font-size:0.75rem;">Obs.</div>
+                </div>
+                <div class="sw-name">Pouakai</div>
+                <div class="sw-tagline">Image reduction pipeline for Mt John Observatory</div>
+                <p class="sw-description">
+                    Image reduction and calibration pipeline for the University of Canterbury's
+                    Ōtehīwai | Mt John Observatory. Automates the full data reduction workflow
+                    from raw frames to science-ready calibrated images, enabling routine and
+                    time-critical observations from Tekapō.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">Imaging</span>
+                    <span class="sw-tag">Mt John Observatory</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/Pouakai" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/Pouakai#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- power_scan -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars" style="color:var(--muted); font-size:0.75rem;">New</div>
+                </div>
+                <div class="sw-name">power_scan</div>
+                <div class="sw-tagline">Variable star detection via power spectrum analysis</div>
+                <p class="sw-description">
+                    Searches for variable stars in time-series photometric data using power spectrum
+                    analysis. Identifies periodic signals — from pulsating stars to compact binaries —
+                    that might be missed by simple amplitude thresholding. Lightweight and MIT-licensed,
+                    designed to complement TESS-based survey pipelines.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">Variable Stars</span>
+                    <span class="sw-tag">Power Spectrum</span>
+                    <span class="sw-tag">MIT License</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/power_scan" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/power_scan#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+            <!-- SynDiff -->
+            <div class="sw-card">
+                <div class="sw-header">                    <div class="sw-stars" style="color:var(--muted); font-size:0.75rem;">In dev.</div>
+                </div>
+                <div class="sw-name">SynDiff</div>
+                <div class="sw-tagline">Bayesian forward-modelled difference imaging for TESS</div>
+                <p class="sw-description">
+                    Next-generation difference imaging pipeline for TESS, forward-modelling
+                    high-resolution ground-based reference images to produce optimal TESS
+                    light curves. Funded by a NASA Astrophysical Data Analysis Program grant
+                    ($400K USD). Currently in active development.
+                </p>
+                <div class="sw-tags">
+                    <span class="sw-tag">Python</span>
+                    <span class="sw-tag">Bayesian</span>
+                    <span class="sw-tag">TESS</span>
+                    <span class="sw-tag">NASA Funded</span>
+                    <span class="sw-tag">In Development</span>
+                </div>
+                <div class="sw-footer">
+                    <a href="https://github.com/CheerfulUser/SynDiff" target="_blank" rel="noopener" class="sw-btn sw-btn-primary">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://github.com/CheerfulUser/SynDiff#readme" target="_blank" rel="noopener" class="sw-btn">Docs</a>
+                </div>
+            </div>
+
+        </div><!-- /software-grid -->
+
+        <p style="margin-top:2rem; color:var(--muted); font-size:0.88rem;">
+            View all repositories on
+            <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener">GitHub &rarr;</a>
+        </p>
+    </div>
+</section>
+
+<!-- ======================================================
+     OUTREACH TEASER
+====================================================== -->
+<section id="outreach">
+    <div class="container">
+        <div class="section-label">Beyond the Paper</div>
+        <h2 class="section-title">Outreach &amp; Communication</h2>
+        <p class="section-subtitle">
+            Sharing the universe — through screens, stages, classrooms, and print.
+        </p>
+
+        <div class="outreach-grid">
+
+            <div class="outreach-section">
+                <div class="outreach-section-title">                    YouTube Channel
+                </div>
+                <p style="color:var(--muted); font-size:0.92rem; line-height:1.65; margin-bottom:1rem;">
+                    Science explainers, astronomer reactions, and public lectures. Latest: <em>Help us Discover Cosmic Cataclysms</em>.
+                </p>
+                <a href="https://www.youtube.com/@RyanRidden" target="_blank" rel="noopener" class="channel-cta" style="margin-top:0;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    View Channel
+                </a>
+            </div>
+
+            <div class="outreach-section">
+                <div class="outreach-section-title">                    Public Talks
+                </div>
+                <p style="color:var(--muted); font-size:0.92rem; line-height:1.65;">
+                    2023 Beatrice Hill Tinsley Lecturer — 12 public talks touring astronomical societies across Aotearoa New Zealand. 100+ lectures to schools and community groups since 2012.
+                </p>
+            </div>
+
+            <div class="outreach-section">
+                <div class="outreach-section-title">                    Media
+                </div>
+                <p style="color:var(--muted); font-size:0.92rem; line-height:1.65;">
+                    New Scientist cover story (March 2025), CBC Quirks &amp; Quarks, Royal Society Marsden in Focus, TVNZ &amp; NewsHub, IFL Science.
+                </p>
+            </div>
+
+        </div><!-- /outreach-grid -->
+
+        <div style="text-align:center; margin-top:2.5rem;">
+            <a href="outreach.html" class="btn btn-outline">
+                View All Outreach &rarr;
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     CONTACT
+====================================================== -->
+<section id="contact">
+    <div class="container">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+            <div class="contact-text">
+                <p>
+                    I'm always happy to hear from fellow researchers, science communicators,
+                    journalists, educators, and anyone curious about the universe.
+                </p>
+                <p>
+                    If you'd like to collaborate on research, invite me to speak at an event
+                    (public or professional), or just have a question about astrophysics —
+                    don't hesitate to reach out.
+                </p>
+                <p style="margin-top:1.5rem;">
+                    <strong>University of Canterbury</strong><br>
+                    <span style="color:var(--muted);">School of Physical and Chemical Sciences<br>
+                    Christchurch, New Zealand</span>
+                </p>
+            </div>
+            <div class="contact-cards">
+                <a href="mailto:ryan.ridden@canterbury.ac.nz" class="contact-card">                    <div class="contact-card-info">
+                        <span class="contact-card-label">Email</span>
+                        <span class="contact-card-value">ryan.ridden@canterbury.ac.nz</span>
+                    </div>
+                </a>
+                <a href="https://bsky.app/profile/ryanridden.bsky.social" target="_blank" rel="noopener" class="contact-card">                    <div class="contact-card-info">
+                        <span class="contact-card-label">Bluesky</span>
+                        <span class="contact-card-value">@ryanridden.bsky.social</span>
+                    </div>
+                </a>
+                <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener" class="contact-card">                    <div class="contact-card-info">
+                        <span class="contact-card-label">GitHub</span>
+                        <span class="contact-card-value">CheerfulUser</span>
+                    </div>
+                </a>
+                <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener" class="contact-card">                    <div class="contact-card-info">
+                        <span class="contact-card-label">ORCID</span>
+                        <span class="contact-card-value">0000-0003-1724-2885</span>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/@RyanRidden" target="_blank" rel="noopener" class="contact-card">                    <div class="contact-card-info">
+                        <span class="contact-card-label">YouTube</span>
+                        <span class="contact-card-value">@RyanRidden</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+<footer>
+    <div class="container">
+        <p>
+            &copy; 2026 Ryan Ridden &bull;
+            <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener">ORCID</a> &bull;
+            <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener">GitHub</a> &bull;
+            <a href="https://bsky.app/profile/ryanridden.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+        </p>
+        <p style="margin-top:0.4rem; font-size:0.78rem;">
+            University of Canterbury &bull; Christchurch, New Zealand
+        </p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/vendor/d3.v7.min.js"></script>
+<script src="js/vendor/topojson-client.min.js"></script>
+<script src="js/world-data.js"></script>
+<script src="js/collab-map.js"></script>
+</body>
+</html>

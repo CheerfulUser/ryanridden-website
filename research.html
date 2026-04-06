@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ryan Ridden — Research publications, collaborator network, and time-domain astrophysics.">
+    <title>Research | Ryan Ridden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/students.css">
+    <link rel="stylesheet" href="css/research.css">
+</head>
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+====================================================== -->
+<nav id="navbar">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">Ryan <span>Ridden</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="research.html" class="nav-active">Research</a></li>
+            <li><a href="index.html#software">Software</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="outreach.html">Outreach</a></li>
+            <li><a href="workshops.html">Workshops</a></li>
+            <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- ======================================================
+     PAGE HERO
+====================================================== -->
+<div class="page-hero" style="--section-bg:url('assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');">
+    <div class="hero-bg-image" style="background-image:url('assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');"></div>
+    <div class="stars"></div>
+    <div class="hero-glow"></div>
+    <div class="container page-hero-content">
+        <div class="section-label">Publications &amp; Collaborations</div>
+        <h1 class="page-hero-title">Research</h1>
+        <p class="page-hero-subtitle">
+            Time-domain astrophysics, supernovae, gamma-ray bursts, transient surveys, and open-source software —
+            supported by the Rutherford Postdoctoral Fellowship and a NASA ADAP grant.
+        </p>
+        <div class="hero-stats" style="margin-top:2rem;">
+            <div class="stat"><span class="stat-value">40+</span><span class="stat-label">Publications</span></div>
+            <div class="stat"><span class="stat-value">20</span><span class="stat-label">h-index</span></div>
+            <div class="stat"><span class="stat-value">16,000+</span><span class="stat-label">Citations</span></div>
+        </div>
+    </div>
+</div>
+
+<!-- ======================================================
+     3 MOST RECENT PAPERS
+====================================================== -->
+<section id="recent">
+    <div class="container">
+        <div class="section-label">Latest Work</div>
+        <h2 class="section-title">Recent Publications</h2>
+        <p class="section-subtitle">The three most recent papers from the group.</p>
+
+        <div class="recent-grid">
+
+            <!-- SN 2019vxm -->
+            <div class="pub-card recent-card" data-category="supernovae grb student" data-year="2025" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">SN 2019vxm: A Shocking Coincidence between Fermi and TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-student">Student Paper</span>
+                        <span class="badge badge-new">Preprint 2025</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal (submitted)</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">
+                    The first superluminous Type IIn supernova caught on the rise with TESS photometry.
+                    Led by PhD student Zac Lane — a spatial and temporal coincidence with X-ray transient
+                    GRB191117A (3.3σ) points to shock breakout into a dense, asymmetric circumstellar medium.
+                </p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Lane, Z. G., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2511.15975" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3I/ATLAS -->
+            <div class="pub-card recent-card" data-category="solar-system" data-year="2025" data-citations="22" data-journal="Monthly Notices of the Royal Astronomical Society Letters">
+                <div class="pub-header">
+                    <h3 class="pub-title">Snapshot of a New Interstellar Comet: 3I/ATLAS Has a Red and Featureless Spectrum</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-hot">22 Citations</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">MNRAS Letters</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">
+                    Rapid spectroscopic characterisation of 3I/ATLAS — only the third interstellar object
+                    ever detected passing through the Solar System. The featureless, steeply red optical
+                    spectrum provides baseline data for monitoring this visitor as it approaches the Sun.
+                </p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Opitom, C., Snodgrass, C. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1093/mnrasl/slaf085" target="_blank" rel="noopener" class="pub-link">DOI</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TESSELLATE -->
+            <div class="pub-card recent-card" data-category="software lead student" data-year="2025" data-citations="1" data-journal="Astronomical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">TESSELLATE: Piecing Together the Variable Sky with TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Key Contributor</span>
+                        <span class="badge badge-software">Software</span>
+                        <span class="badge badge-student">Student Paper</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astronomical Journal</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">
+                    A dedicated pipeline for untargeted, all-sky searches for variable and transient phenomena
+                    in TESS data to magnitude 17. Enables systematic transient surveys without pre-selecting
+                    targets, deployed at supercomputer scale on OzSTAR.
+                </p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Roxburgh, H., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2501.07492" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                        <a href="https://github.com/CheerfulUser/tessellate" target="_blank" rel="noopener" class="pub-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     COLLABORATOR MAP
+====================================================== -->
+<section id="collaborators" style="background: var(--surface);">
+    <div class="container">
+        <div class="section-label">Global Network</div>
+        <h2 class="section-title">Collaborators</h2>
+        <p class="section-subtitle" style="margin-bottom:2rem;">
+            Active collaborations across the world — from STScI and Harvard to Swinburne, Arizona, and beyond.
+        </p>
+        <div class="collab-map-wrap">
+            <svg id="collabMap" style="width:100%; height:auto; display:block; border-radius:var(--radius-lg); background:var(--bg);"></svg>
+        </div>
+        <!-- Legend -->
+        <div class="collab-legend" style="display:flex; flex-wrap:wrap; gap:0.6rem 1.5rem; margin-top:1.25rem; justify-content:center;">
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:10px; height:10px; border-radius:50%; background:#9b6dff; display:inline-block; box-shadow:0 0 6px #9b6dff;"></span> Home
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#f97b4f; display:inline-block;"></span> Supernovae
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#4fecf9; display:inline-block;"></span> Solar System / Interstellar
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#c084fc; display:inline-block;"></span> GRBs
+            </span>
+            <span style="display:flex; align-items:center; gap:0.4rem; font-size:0.82rem; color:var(--muted);">
+                <span style="width:8px; height:8px; border-radius:50%; background:#4fca8b; display:inline-block;"></span> General / Surveys
+            </span>
+        </div>
+
+        <!-- Institution list -->
+        <div class="collab-inst-grid" style="margin-top:2rem; display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:0.5rem 1.5rem;">
+            <div class="collab-inst-group">
+                <div class="collab-inst-heading" style="color:#f97b4f;">Supernovae</div>
+                <ul class="collab-inst-list">
+                    <li>STScI &mdash; Baltimore, USA</li>
+                    <li>Harvard / CfA &mdash; Cambridge, USA</li>
+                    <li>UC Santa Cruz &mdash; USA</li>
+                    <li>UC Berkeley &mdash; USA</li>
+                    <li>Northwestern &mdash; Evanston, USA</li>
+                    <li>Columbia / CCA &mdash; New York, USA</li>
+                    <li>Texas A&amp;M &mdash; USA</li>
+                    <li>Carnegie Observatories &mdash; Pasadena, USA</li>
+                    <li>Queen's Belfast &mdash; UK</li>
+                    <li>Swinburne Univ. &mdash; Melbourne, Australia</li>
+                    <li>ANU &mdash; Canberra, Australia</li>
+                </ul>
+            </div>
+            <div class="collab-inst-group">
+                <div class="collab-inst-heading" style="color:#4fecf9;">Solar System / Interstellar</div>
+                <ul class="collab-inst-list">
+                    <li>Univ. of Edinburgh &mdash; UK</li>
+                    <li>Hawaii / IfA &mdash; Honolulu, USA</li>
+                    <li>Univ. of Arizona &mdash; Tucson, USA</li>
+                </ul>
+                <div class="collab-inst-heading" style="color:#c084fc; margin-top:1rem;">GRBs</div>
+                <ul class="collab-inst-list">
+                    <li>NASA Goddard &mdash; Greenbelt, USA</li>
+                    <li>MIT &mdash; Cambridge, USA</li>
+                </ul>
+                <div class="collab-inst-heading" style="color:#4fca8b; margin-top:1rem;">General / Surveys</div>
+                <ul class="collab-inst-list">
+                    <li>Curtin Univ. &mdash; Perth, Australia</li>
+                    <li>Univ. of Queensland &mdash; Brisbane, Australia</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ======================================================
+     ALL PUBLICATIONS
+====================================================== -->
+<section id="publications">
+    <div class="container">
+        <div class="section-label">Full List</div>
+        <h2 class="section-title">All Publications</h2>
+        <p class="section-subtitle">
+            Full list also on <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener">ORCID</a>.
+        </p>
+
+        <div class="pub-controls">
+            <div class="pub-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="refereed">Refereed</button>
+                <button class="filter-btn" data-filter="lead">Lead Author</button>
+                <button class="filter-btn" data-filter="student">Student Papers</button>
+                <button class="filter-btn" data-filter="supernovae">Supernovae</button>
+                <button class="filter-btn" data-filter="grb">GRBs</button>
+                <button class="filter-btn" data-filter="software">Software</button>
+                <button class="filter-btn" data-filter="solar-system">Solar System</button>
+            </div>
+            <div class="pub-sort">
+                <label class="sort-label">Sort by</label>
+                <div class="sort-btns">
+                    <button class="sort-btn active" data-sort="default">Featured</button>
+                    <button class="sort-btn" data-sort="year-desc">Year ↓</button>
+                    <button class="sort-btn" data-sort="year-asc">Year ↑</button>
+                    <button class="sort-btn" data-sort="citations-desc">Citations ↓</button>
+                    <button class="sort-btn" data-sort="journal-asc">Journal A–Z</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pub-grid" id="pubGrid">
+
+            <!-- TESSreduce -->
+            <div class="pub-card" data-category="lead software" data-year="2021" data-citations="50" data-journal="Astronomical Journal">
+                <div class="pub-header">
+                    <h3 class="pub-title">TESSreduce: Transient Focused Reduction of TESS Data</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Lead Author</span>
+                        <span class="badge badge-software">Software</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astronomical Journal</span>
+                    <span class="pub-year">2021</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Widely cited</span>
+                </div>
+                <p class="pub-summary">Introduces TESSreduce, an open-source Python package for reducing TESS space telescope data with a focus on preserving short-lived transient signals. The pipeline performs background subtraction, image alignment and differencing, and flux calibration to physical units via PS1 and SkyMapper cross-matching. TESSreduce is now the standard tool for community transient science with TESS, with 27 GitHub stars and 15 forks.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2111.15006" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                        <a href="https://github.com/CheerfulUser/TESSreduce" target="_blank" rel="noopener" class="pub-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- starkiller -->
+            <div class="pub-card" data-category="lead software" data-year="2024" data-citations="0" data-journal="Astronomical Journal" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">starkiller: Subtracting Stars and Other Sources from IFU Spectroscopic Data Through Forward Modeling</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Lead Author</span>
+                        <span class="badge badge-software">Software</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astronomical Journal</span>
+                    <span class="pub-year">2024</span>
+                </div>
+                <p class="pub-summary">Presents starkiller, an open-source Python pipeline for removing stellar and satellite contamination from integral field unit (IFU) spectroscopic datacubes. The tool forward-models catalog stars using Gaia DR3 data, extracts PSFs from the data itself, and performs spectral matching against stellar libraries — enabling clean observations of extended objects like comets, asteroids, and galaxies.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R., Bannister, M. T., Deam, S. E., Nordlander, T.</span>
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.3847/1538-3881/ad9b52" target="_blank" rel="noopener" class="pub-link">DOI</a>
+                        <a href="https://github.com/CheerfulUser/starkiller" target="_blank" rel="noopener" class="pub-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- K2 Background Survey -->
+            <div class="pub-card" data-category="lead" data-year="2020" data-citations="20" data-journal="Monthly Notices of the Royal Astronomical Society" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">K2: Background Survey — The Search for Undiscovered Transients in Kepler/K2 Data</h3>
+                    <div class="pub-badges"><span class="badge badge-lead">Lead Author</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society</span>
+                    <span class="pub-year">2020</span>
+                </div>
+                <p class="pub-summary">A systematic search through all archival Kepler/K2 data for previously undetected background transients. By developing custom difference-imaging techniques tailored to Kepler's unique pixel scale, this survey pioneered the approach of mining space telescope data for serendipitous transient discoveries that laid the groundwork for TESSELLATE.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R. et al.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/staa2087" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- WZ Sge CV -->
+            <div class="pub-card" data-category="lead" data-year="2019" data-citations="15" data-journal="Monthly Notices of the Royal Astronomical Society" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Discovery of a WZ Sagittae-type Cataclysmic Variable in Kepler/K2 Data</h3>
+                    <div class="pub-badges"><span class="badge badge-lead">Lead Author</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society</span>
+                    <span class="pub-year">2019</span>
+                </div>
+                <p class="pub-summary">Reports the discovery and characterisation of a rare WZ Sagittae-type cataclysmic variable system using the Kepler K2 mission. K2's unbroken light curves revealed the system's outburst structure and orbital dynamics in unprecedented detail.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R. et al.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stz2550" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- Bernardinelli-Bernstein -->
+            <div class="pub-card" data-category="lead solar-system" data-year="2021" data-citations="5" data-journal="Research Notes of the AAS" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">No Rotational Variability in C/2014 UN271 (Bernardinelli-Bernstein) at 23.8 au and 21.1 au as Seen by TESS</h3>
+                    <div class="pub-badges"><span class="badge badge-lead">Lead Author</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Research Notes of the AAS</span>
+                    <span class="pub-year">2021</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 5 citations</span>
+                </div>
+                <p class="pub-summary">Uses archival TESS observations to search for rotational brightness variations in one of the largest known Oort cloud comets, observed at record distances from the Sun (21–24 au). No detectable rotational signal was found, placing constraints on its surface heterogeneity.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R., Bannister, M. T., Kokotanekova, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/2515-5172/ac1512" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- GRB 191016A -->
+            <div class="pub-card" data-category="grb" data-year="2021" data-citations="8" data-journal="Astrophysical Journal" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">GRB 191016A: A Long Gamma-Ray Burst Detected by TESS</h3>
+                    <div class="pub-badges"><span class="badge badge-lead">Key Contributor</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal</span>
+                    <span class="pub-year">2021</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 8 citations</span>
+                </div>
+                <p class="pub-summary">The first detailed study of a gamma-ray burst captured in high-cadence optical photometry by TESS. The 10-minute cadence light curve revealed a late optical peak more than 1000 seconds after the initial gamma-ray trigger, enabling estimates of the jet Lorentz factor (90–133).</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Smith, K., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/1538-4357/abe6a2" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- GRB Comprehensive — student -->
+            <div class="pub-card" data-category="grb student" data-year="2024" data-citations="6" data-journal="Astrophysical Journal" data-student="true" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">A Comprehensive Investigation of Gamma-Ray Burst Afterglows Detected by TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-student">Student Paper</span>
+                        <span class="badge badge-lead">Key Contributor</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal</span>
+                    <span class="pub-year">2024</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 6 citations</span>
+                </div>
+                <p class="pub-summary">The most comprehensive search to date for gamma-ray burst optical afterglows in TESS data. Led by student Hugh Roxburgh, this work systematically cross-matched all GRB triggers with TESS full-frame images, characterising the unique constraints TESS provides on GRB optical emission timescales.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Roxburgh, H., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/1538-4357/ad1b59" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- SN 2019vxm — student -->
+            <div class="pub-card" data-category="supernovae grb student" data-year="2025" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">SN 2019vxm: A Shocking Coincidence between Fermi and TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-student">Student Paper</span>
+                        <span class="badge badge-new">Preprint 2025</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal (submitted)</span>
+                    <span class="pub-year">2025</span>
+                </div>
+                <p class="pub-summary">The first superluminous Type IIn supernova caught on the rise with well-sampled TESS photometry. Led by PhD student Zac Lane, with a striking spatial and temporal coincidence with the X-ray transient GRB191117A (3.3σ confidence). The TESS light curve constrains first light to within 7.2 hours and reveals shock breakout into a dense, asymmetric circumstellar medium from a luminous blue variable progenitor.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Lane, Z. G., Ridden-Harper, R., Rest, S., Rest, A., Ransome, C. L., Wang, Q., Montilla, C. et al.</span>
+                    <div class="pub-links"><a href="https://arxiv.org/abs/2511.15975" target="_blank" rel="noopener" class="pub-link">arXiv</a></div>
+                </div>
+            </div>
+
+            <!-- Final Moments I -->
+            <div class="pub-card" data-category="supernovae" data-year="2022" data-citations="95" data-journal="Astrophysical Journal" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Final Moments I: Precursor Emission, Envelope Inflation, and Enhanced Mass Loss Preceding the Luminous Type II Supernova SN 2020tlf</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">95 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal</span>
+                    <span class="pub-year">2022</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 95 citations</span>
+                </div>
+                <p class="pub-summary">A landmark detection of optical precursor emission from a massive star in the 130 days before it exploded as a Type II supernova. Direct observational evidence that stars undergo substantial envelope inflation and enhanced mass loss in their final months before death.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Jacobson-Galán, W. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/1538-4357/ac3f3a" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- AT2022cmc — Nature -->
+            <div class="pub-card" data-category="" data-year="2022" data-citations="93" data-journal="Nature" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">A Very Luminous Jet from the Disruption of a Star by a Massive Black Hole</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-nature">Nature</span>
+                        <span class="badge badge-hot">93 Citations</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Nature</span>
+                    <span class="pub-year">2022</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 93 citations</span>
+                </div>
+                <p class="pub-summary">Multi-facility detection of AT2022cmc, one of the most luminous tidal disruption events ever observed — a relativistic jet pointing directly at Earth, ~100× brighter than typical TDEs and visible at cosmological distances.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Andreoni, I. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1038/s41586-022-05465-8" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- GRB 221009A — BOAT -->
+            <div class="pub-card" data-category="grb" data-year="2023" data-citations="34" data-journal="Astrophysical Journal Letters" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">The Optical Light Curve of GRB 221009A: The Afterglow and the Emerging Supernova</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">34 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal Letters</span>
+                    <span class="pub-year">2023</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 34 citations</span>
+                </div>
+                <p class="pub-summary">Detailed optical photometry of GRB 221009A — the "BOAT" (Brightest Of All Time). Disentangles the rapidly fading afterglow from a flux excess consistent with an emerging Type Ic supernova from the star that exploded to create this record-breaking GRB.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Fulton, M., Smartt, S. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/2041-8213/acc101" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- DART -->
+            <div class="pub-card" data-category="solar-system" data-year="2024" data-citations="26" data-journal="Planetary Science Journal" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Achievement of the Planetary Defense Investigations of the Double Asteroid Redirection Test (DART) Mission</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">26 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Planetary Science Journal</span>
+                    <span class="pub-year">2024</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 26 citations</span>
+                </div>
+                <p class="pub-summary">Comprehensive documentation of NASA's DART mission — the first demonstration of kinetic impact as a planetary defence technique. The spacecraft changed Dimorphos's orbital period by 33.24 minutes, proving humanity can redirect an asteroid.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Chabot, N. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/PSJ/ad16e6" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- BlueWalker 3 — Nature -->
+            <div class="pub-card" data-category="" data-year="2023" data-citations="24" data-journal="Nature" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">The High Optical Brightness of the BlueWalker 3 Satellite</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-nature">Nature</span>
+                        <span class="badge badge-hot">24 Citations</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Nature</span>
+                    <span class="pub-year">2023</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 24 citations</span>
+                </div>
+                <p class="pub-summary">International campaign finding BlueWalker 3 reached peak magnitude 0.4 — bright enough to see with the naked eye — quantifying the severe threat that large commercial satellite constellations pose to ground-based optical and radio astronomy.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Nandakumar, S. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1038/s41586-023-06672-7" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- 3I/ATLAS -->
+            <div class="pub-card" data-category="solar-system" data-year="2025" data-citations="22" data-journal="Monthly Notices of the Royal Astronomical Society Letters" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Snapshot of a New Interstellar Comet: 3I/ATLAS Has a Red and Featureless Spectrum</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">22 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society Letters</span>
+                    <span class="pub-year">2025</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 22 citations</span>
+                </div>
+                <p class="pub-summary">Rapid spectroscopic characterisation of 3I/ATLAS, only the third interstellar object ever detected. The featureless, steeply red optical spectrum suggests a dust-rich coma with no detectable gas emission at the time of discovery, providing baseline data for monitoring this visitor as it approaches the Sun.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Opitom, C., Snodgrass, C. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnrasl/slaf085" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- SN 2021zny -->
+            <div class="pub-card" data-category="supernovae" data-year="2023" data-citations="16" data-journal="Monthly Notices of the Royal Astronomical Society" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">SN 2021zny: An Early Flux Excess Combined with Late-time Oxygen Emission Suggests a Double White Dwarf Merger Event</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">16 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society</span>
+                    <span class="pub-year">2023</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 16 citations</span>
+                </div>
+                <p class="pub-summary">TESS captured SN 2021zny just 5.3 hours after explosion, revealing an early flux excess inconsistent with standard Type Ia models. Combined with late-time oxygen emission, the data support a double white dwarf merger origin.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Dimitriadis, G. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnras/stad536" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- Cosmological Foundations — student -->
+            <div class="pub-card" data-category="student" data-year="2024" data-citations="30" data-journal="Monthly Notices of the Royal Astronomical Society" data-student="true" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Cosmological Foundations Revisited with Pantheon+</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-hot">30 Citations</span>
+                        <span class="badge badge-student">Student Paper</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society</span>
+                    <span class="pub-year">2024</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 30 citations</span>
+                </div>
+                <p class="pub-summary">Led by PhD student Zac Lane, this reanalysis of the Pantheon+ catalogue finds the first evidence that timescape cosmology may provide a better overall fit than ΛCDM, opening a new data-driven window on dark energy alternatives.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Lane, Z. G., Seifert, A., Ridden-Harper, R., Wiltshire, D. L.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2311.01438" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                        <a href="https://doi.org/10.1093/mnras/stae2502" target="_blank" rel="noopener" class="pub-link">DOI</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timescape cosmology — student -->
+            <div class="pub-card" data-category="student" data-year="2024" data-citations="14" data-journal="Monthly Notices of the Royal Astronomical Society" data-student="true" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Supernovae Evidence for Foundational Change to Cosmological Models</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-hot">14 Citations</span>
+                        <span class="badge badge-student">Student Paper</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Monthly Notices of the Royal Astronomical Society</span>
+                    <span class="pub-year">2024</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 14 citations</span>
+                </div>
+                <p class="pub-summary">Statistical analysis of Type Ia supernova data provides strong evidence that the timescape cosmology fits the Pantheon+ data better than the standard ΛCDM model, challenging foundational assumptions about dark energy.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Seifert, A., Lane, Z. G., Galoppo, M., Ridden-Harper, R., Wiltshire, D. L.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.1093/mnrasl/slae122" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- Flight of the Bumblebee -->
+            <div class="pub-card" data-category="supernovae" data-year="2023" data-citations="15" data-journal="Astrophysical Journal" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">Flight of the Bumblebee: The Early Excess Flux of Type Ia Supernova 2023bee</h3>
+                    <div class="pub-badges"><span class="badge badge-hot">15 Citations</span></div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal</span>
+                    <span class="pub-year">2023</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 15 citations</span>
+                </div>
+                <p class="pub-summary">TESS's 10-minute cadence captured an early optical excess in the first day after explosion of SN 2023bee — a brief blue bump invisible to ground-based surveys, constraining the explosion mechanism and companion interaction.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Wang, Q., Rest, A. et al., incl. Ridden-Harper, R.</span>
+                    <div class="pub-links"><a href="https://doi.org/10.3847/1538-4357/ad0edb" target="_blank" rel="noopener" class="pub-link">DOI</a></div>
+                </div>
+            </div>
+
+            <!-- TESSELLATE -->
+            <div class="pub-card" data-category="software lead student" data-year="2025" data-citations="1" data-journal="Astronomical Journal" data-student="true" data-refereed="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">TESSELLATE: Piecing Together the Variable Sky with TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Key Contributor</span>
+                        <span class="badge badge-software">Software</span>
+                        <span class="badge badge-student">Student Paper</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astronomical Journal</span>
+                    <span class="pub-year">2025</span>
+                    <span class="pub-citations"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> 1 citation</span>
+                </div>
+                <p class="pub-summary">Presents TESSELLATE, a dedicated pipeline for untargeted all-sky searches for variable and transient phenomena in TESS data to magnitude 17, deployed at supercomputer scale on OzSTAR.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Roxburgh, H., Ridden-Harper, R. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2501.07492" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                        <a href="https://github.com/CheerfulUser/tessellate" target="_blank" rel="noopener" class="pub-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /pub-grid -->
+    </div>
+</section>
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+<footer>
+    <div class="container">
+        <p>
+            &copy; 2026 Ryan Ridden &bull;
+            <a href="https://orcid.org/0000-0003-1724-2885" target="_blank" rel="noopener">ORCID</a> &bull;
+            <a href="https://github.com/CheerfulUser" target="_blank" rel="noopener">GitHub</a> &bull;
+            <a href="https://bsky.app/profile/ryanridden.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+        </p>
+        <p style="margin-top:0.4rem; font-size:0.78rem;">
+            University of Canterbury &bull; Christchurch, New Zealand
+        </p>
+    </div>
+</footer>
+
+
+<script src="js/research.js"></script>
+<script src="js/vendor/d3.v7.min.js"></script>
+<script src="js/vendor/topojson-client.min.js"></script>
+<script src="js/world-data.js"></script>
+<script src="js/collab-map.js"></script>
+</body>
+</html>

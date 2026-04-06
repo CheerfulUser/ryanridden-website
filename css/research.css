@@ -1,0 +1,36 @@
+/* =============================================
+   Research page styles
+   ============================================= */
+
+/* Recent papers grid — 3 columns */
+.recent-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.recent-card {
+    height: 100%;
+}
+
+.recent-card .pub-header {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.recent-card .pub-badges {
+    flex-shrink: 1;
+}
+
+@media (max-width: 900px) {
+    .recent-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .recent-grid {
+        grid-template-columns: 1fr;
+    }
+}
