@@ -142,7 +142,7 @@
         // Sphere outline
         svg.append('path').datum({ type: 'Sphere' })
             .attr('d', path)
-            .attr('fill', 'rgba(79,156,249,0.04)')
+            .attr('fill', '#080b14')
             .attr('stroke', 'rgba(79,156,249,0.2)')
             .attr('stroke-width', 0.6);
 
@@ -157,8 +157,8 @@
         if (world) {
             svg.append('path').datum(topojson.feature(world, world.objects.land))
                 .attr('d', path)
-                .attr('fill', 'rgba(79,156,249,0.12)')
-                .attr('stroke', 'rgba(79,156,249,0.3)')
+                .attr('fill', 'rgba(79,156,249,0.28)')
+                .attr('stroke', 'rgba(79,156,249,0.5)')
                 .attr('stroke-width', 0.5);
 
             svg.append('path')
@@ -178,8 +178,8 @@
                 .attr('d', path)
                 .attr('fill', 'none')
                 .attr('stroke', topicColor(c))
-                .attr('stroke-opacity', 0.2)
-                .attr('stroke-width', 0.9)
+                .attr('stroke-opacity', 0.55)
+                .attr('stroke-width', 1.4)
                 .attr('stroke-dasharray', '3,4');
         });
 
