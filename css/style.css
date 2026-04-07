@@ -4,16 +4,16 @@
 
 :root {
     --bg:       #080b14;
-    --surface:  #0d1220;
-    --surface2: #131b2e;
+    --surface:  rgba(13, 18, 32, 0.55);
+    --surface2: rgba(19, 27, 46, 0.55);
     --border:   #1e2d4a;
     --accent:   #9b6dff;
     --accent-glow: rgba(155, 109, 255, 0.12);
     --purple:   #9b6dff;
     --gold:     #f5a84f;
     --green:    #4fca8b;
-    --text:     #e2e8f0;
-    --muted:    #7a889e;
+    --text:     #ffffff;
+    --muted:    #c8d0dc;
     --font-body:    'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-display: 'Space Grotesk', -apple-system, sans-serif;
     --radius:   10px;
@@ -24,15 +24,16 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; background-color: var(--bg); }
 
 body {
-    background: var(--bg);
+    background-color: transparent;
     color: var(--text);
     font-family: var(--font-body);
     line-height: 1.7;
     overflow-x: hidden;
 }
+
 
 a { color: var(--accent); text-decoration: none; transition: color var(--transition); }
 a:hover { color: #7ab8ff; }
@@ -77,10 +78,12 @@ h1, h2, h3, h4 {
 
 section {
     padding: 6rem 0;
+    position: relative;
+    z-index: 1;
 }
 
 section:nth-child(even) {
-    background: var(--surface);
+    background: rgba(13, 18, 32, 0.4);
 }
 
 /* ── Navigation ── */
@@ -171,7 +174,8 @@ nav.scrolled {
     position: relative;
     overflow: hidden;
     padding: 0;
-    background: var(--bg);
+    z-index: 1;
+    background: transparent;
 }
 
 .hero-bg-image {
@@ -1138,10 +1142,12 @@ nav.scrolled {
 
 /* ── Footer ── */
 footer {
-    background: var(--surface);
+    background: rgba(13, 18, 32, 0.6);
     border-top: 1px solid var(--border);
     padding: 2.5rem 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 footer p {

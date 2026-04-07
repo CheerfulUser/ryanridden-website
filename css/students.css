@@ -11,8 +11,9 @@
 .page-hero {
     position: relative;
     overflow: hidden;
-    background: var(--bg);
+    background: transparent;
     padding: 8rem 0 4rem;
+    z-index: 1;
 }
 
 .page-hero-content {
@@ -46,7 +47,7 @@
     display: grid;
     grid-template-columns: 160px 1fr;
     gap: 2rem;
-    background: var(--surface2);
+    background: rgba(19, 27, 46, 0.55);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 2rem;
@@ -213,7 +214,7 @@
 }
 
 .alumni-card {
-    background: var(--surface2);
+    background: rgba(19, 27, 46, 0.55);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg);
     padding: 1.5rem;
@@ -363,7 +364,7 @@
     width: 36px;
     height: 36px;
     border-radius: 8px;
-    background: var(--surface2);
+    background: rgba(19, 27, 46, 0.55);
     border: 1px solid var(--border);
     display: flex;
     align-items: center;
@@ -416,100 +417,3 @@
 }
 
 /* ── Workshop / conference cards ── */
-.workshop-card {
-    background: var(--surface2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    margin-top: 2rem;
-}
-
-.workshop-images {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 3px;
-    max-height: 340px;
-}
-
-.workshop-img-main {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.workshop-img-secondary {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 3px;
-}
-
-.workshop-img-secondary img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.workshop-body {
-    padding: 2rem 2rem 1.75rem;
-}
-
-.workshop-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-bottom: 0.75rem;
-}
-
-.workshop-tag {
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    padding: 0.2rem 0.55rem;
-    border-radius: 4px;
-    background: var(--accent-glow);
-    color: var(--accent);
-    border: 1px solid rgba(155,109,255,0.2);
-}
-
-.workshop-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    margin: 0 0 1rem;
-    font-family: var(--font-display);
-}
-
-.workshop-title a {
-    color: var(--text);
-}
-
-.workshop-title a:hover {
-    color: var(--accent);
-}
-
-.workshop-desc {
-    font-size: 0.92rem;
-    color: var(--muted);
-    line-height: 1.7;
-    margin-bottom: 0.75rem;
-}
-
-.workshop-credits {
-    font-size: 0.8rem;
-    color: var(--muted);
-    border-top: 1px solid var(--border);
-    padding-top: 0.75rem;
-    margin-top: 1rem;
-}
-
-@media (max-width: 700px) {
-    .workshop-images {
-        grid-template-columns: 1fr;
-        max-height: none;
-    }
-    .workshop-img-secondary {
-        grid-template-rows: none;
-        grid-template-columns: 1fr 1fr;
-        max-height: 160px;
-    }
-}
