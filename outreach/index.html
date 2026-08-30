@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/students.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/students.css">
 </head>
 <body>
 
@@ -18,15 +18,15 @@
 ====================================================== -->
 <nav id="navbar">
     <div class="nav-inner">
-        <a href="index.html" class="nav-logo">Ryan <span>Ridden</span></a>
+        <a href="/" class="nav-logo">Ryan <span>Ridden</span></a>
         <ul class="nav-links" id="navLinks">
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="index.html#software">Software</a></li>
-            <li><a href="students.html">Students</a></li>
-            <li><a href="outreach.html" class="nav-active">Outreach</a></li>
-            <li><a href="workshops.html">Workshops</a></li>
-            <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/#software">Software</a></li>
+            <li><a href="/students/">Students</a></li>
+            <li><a href="/outreach/" class="nav-active">Outreach</a></li>
+            <li><a href="/workshops/">Workshops</a></li>
+            <li><a href="/#contact" class="nav-cta">Contact</a></li>
         </ul>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -38,7 +38,7 @@
      PAGE HEADER
 ====================================================== -->
 <div class="page-hero">
-    <div class="hero-bg-image" style="background-image:url('assets/DSC_0866.jpg');"></div>
+    <div class="hero-bg-image" style="background-image:url('/assets/DSC_0866.jpg');"></div>
     <div class="stars"></div>
     <div class="hero-glow"></div>
     <div class="container page-hero-content">
@@ -312,7 +312,7 @@
     </div>
 </footer>
 
-<script src="js/outreach.js"></script>
+<script src="/js/outreach.js"></script>
 <script>
 document.getElementById('ytFeatured').addEventListener('click', function() {
     const id = this.dataset.id;
@@ -320,6 +320,6 @@ document.getElementById('ytFeatured').addEventListener('click', function() {
     this.style.cursor = 'default';
 });
 </script>
-<script src="js/stars.js"></script>
+<script src="/js/stars.js"></script>
 </body>
 </html>

@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/students.css">
-    <link rel="stylesheet" href="css/research.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/students.css">
+    <link rel="stylesheet" href="/css/research.css">
 </head>
 <body>
 
@@ -19,15 +19,15 @@
 ====================================================== -->
 <nav id="navbar">
     <div class="nav-inner">
-        <a href="index.html" class="nav-logo">Ryan <span>Ridden</span></a>
+        <a href="/" class="nav-logo">Ryan <span>Ridden</span></a>
         <ul class="nav-links" id="navLinks">
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="research.html" class="nav-active">Research</a></li>
-            <li><a href="index.html#software">Software</a></li>
-            <li><a href="students.html">Students</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="workshops.html">Workshops</a></li>
-            <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+            <li><a href="/#about">About</a></li>
+            <li><a href="/research/" class="nav-active">Research</a></li>
+            <li><a href="/#software">Software</a></li>
+            <li><a href="/students/">Students</a></li>
+            <li><a href="/outreach/">Outreach</a></li>
+            <li><a href="/workshops/">Workshops</a></li>
+            <li><a href="/#contact" class="nav-cta">Contact</a></li>
         </ul>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -38,8 +38,8 @@
 <!-- ======================================================
      PAGE HERO
 ====================================================== -->
-<div class="page-hero" style="--section-bg:url('assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');">
-    <div class="hero-bg-image" style="background-image:url('assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');"></div>
+<div class="page-hero" style="--section-bg:url('/assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');">
+    <div class="hero-bg-image" style="background-image:url('/assets/stsci-j-p2020a-dwarfnovasystem-3840x2160.png');"></div>
     <div class="stars"></div>
     <div class="hero-glow"></div>
     <div class="container page-hero-content">
@@ -62,11 +62,47 @@
 ====================================================== -->
 <section id="recent">
     <div class="container">
+        <p class="research-intro" style="max-width:52rem; font-size:1.05rem; line-height:1.7; color:var(--muted); margin-bottom:3rem;">
+            My group works in time-domain astrophysics, using space telescopes like TESS,  JWST, and Roman
+            to catch cosmic explosions as they happen. We build open-source pipelines that mine these
+            archives for transients no one was looking for — from supernovae and the fast, hour-scale
+            flashes of gamma-ray burst afterglows to interstellar visitors passing through the Solar
+            System. Alongside the software, we run dedicated all-sky surveys and follow up the most
+            unusual events with spectroscopy, training the next generation of transient astronomers
+            in the process.
+        </p>
         <div class="section-label">Latest Work</div>
         <h2 class="section-title">Recent Publications</h2>
         <p class="section-subtitle">The three most recent papers from the group.</p>
 
         <div class="recent-grid">
+
+            <!-- AT 2020afjz -->
+            <div class="pub-card recent-card" data-category="grb lead student software" data-year="2026" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">AT 2020afjz (TSS2020a): The First Fast Extragalactic Transient Discovered by TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Lead Author</span>
+                        <span class="badge badge-new">Preprint 2026</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal (submitted)</span>
+                    <span class="pub-year">2026</span>
+                </div>
+                <p class="pub-summary">
+                    The first hour-scale extragalactic optical transient with fully resolved evolution — from
+                    explosion through decay — caught by TESS. Found via the HiLaTS program in an interacting
+                    galaxy pair at z = 0.67, AT 2020afjz rises over ~1 hr and lasts just 2.4 hr above half-max.
+                    Modelling favours a dirty-fireball or orphan afterglow interpretation.
+                </p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R., Roxburgh, H., Montilla, C. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2608.17242" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                    </div>
+                </div>
+            </div>
 
             <!-- SN 2019vxm -->
             <div class="pub-card recent-card" data-category="supernovae grb student" data-year="2025" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
@@ -115,34 +151,6 @@
                     <span class="pub-authors">Opitom, C., Snodgrass, C. et al., incl. Ridden-Harper, R.</span>
                     <div class="pub-links">
                         <a href="https://doi.org/10.1093/mnrasl/slaf085" target="_blank" rel="noopener" class="pub-link">DOI</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TESSELLATE -->
-            <div class="pub-card recent-card" data-category="software lead student" data-year="2025" data-citations="1" data-journal="Astronomical Journal" data-student="true">
-                <div class="pub-header">
-                    <h3 class="pub-title">TESSELLATE: Piecing Together the Variable Sky with TESS</h3>
-                    <div class="pub-badges">
-                        <span class="badge badge-lead">Key Contributor</span>
-                        <span class="badge badge-software">Software</span>
-                        <span class="badge badge-student">Student Paper</span>
-                    </div>
-                </div>
-                <div class="pub-meta">
-                    <span class="pub-journal">Astronomical Journal</span>
-                    <span class="pub-year">2025</span>
-                </div>
-                <p class="pub-summary">
-                    A dedicated pipeline for untargeted, all-sky searches for variable and transient phenomena
-                    in TESS data to magnitude 17. Enables systematic transient surveys without pre-selecting
-                    targets, deployed at supercomputer scale on OzSTAR.
-                </p>
-                <div class="pub-footer">
-                    <span class="pub-authors">Roxburgh, H., Ridden-Harper, R. et al.</span>
-                    <div class="pub-links">
-                        <a href="https://arxiv.org/abs/2501.07492" target="_blank" rel="noopener" class="pub-link">arXiv</a>
-                        <a href="https://github.com/rhoxu/TESSELLATE" target="_blank" rel="noopener" class="pub-link">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -258,6 +266,28 @@
         </div>
 
         <div class="pub-grid" id="pubGrid">
+
+            <!-- AT 2020afjz -->
+            <div class="pub-card" data-category="lead grb student software" data-year="2026" data-citations="0" data-journal="Astrophysical Journal" data-student="true">
+                <div class="pub-header">
+                    <h3 class="pub-title">AT 2020afjz (TSS2020a): The First Fast Extragalactic Transient Discovered by TESS</h3>
+                    <div class="pub-badges">
+                        <span class="badge badge-lead">Lead Author</span>
+                        <span class="badge badge-new">Preprint 2026</span>
+                    </div>
+                </div>
+                <div class="pub-meta">
+                    <span class="pub-journal">Astrophysical Journal (submitted)</span>
+                    <span class="pub-year">2026</span>
+                </div>
+                <p class="pub-summary">Reports the first hour-scale extragalactic optical transient with fully resolved evolution from explosion through decay observed by TESS. Discovered through the HiLaTS program and associated with an interacting galaxy pair at z = 0.67, AT 2020afjz rises over ~1 hr and remains above half-max brightness for only 2.4 hr. Its brightness and duration resemble gamma-ray burst afterglows; modelling supports a dirty-fireball or orphan afterglow classification, though a gamma-ray non-detection could not be confirmed due to satellite occlusion.</p>
+                <div class="pub-footer">
+                    <span class="pub-authors">Ridden-Harper, R., Roxburgh, H., Montilla, C. et al.</span>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2608.17242" target="_blank" rel="noopener" class="pub-link">arXiv</a>
+                    </div>
+                </div>
+            </div>
 
             <!-- TESSreduce -->
             <div class="pub-card" data-category="lead software" data-year="2021" data-citations="50" data-journal="Astronomical Journal">
@@ -659,11 +689,11 @@
 </footer>
 
 
-<script src="js/research.js"></script>
-<script src="js/vendor/d3.v7.min.js"></script>
-<script src="js/vendor/topojson-client.min.js"></script>
-<script src="js/world-data.js"></script>
-<script src="js/collab-map.js"></script>
-<script src="js/stars.js"></script>
+<script src="/js/research.js"></script>
+<script src="/js/vendor/d3.v7.min.js"></script>
+<script src="/js/vendor/topojson-client.min.js"></script>
+<script src="/js/world-data.js"></script>
+<script src="/js/collab-map.js"></script>
+<script src="/js/stars.js"></script>
 </body>
 </html>
