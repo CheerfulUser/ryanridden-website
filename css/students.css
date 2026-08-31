@@ -260,6 +260,21 @@
     color: var(--muted);
 }
 
+.alumni-avatar-row {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.alumni-level {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0.6rem;
+    white-space: nowrap;
+}
+
 .alumni-info { flex: 1; }
 
 .alumni-name {
