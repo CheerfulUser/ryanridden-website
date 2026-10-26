@@ -90,6 +90,11 @@
             labelText: "Edinburgh", labelDx: 8, labelDy: 12, labelAnchor: 'start',
         },
         {
+            name: "Univ. of Oxford", loc: "Oxford, UK",
+            lon: -1.3, lat: 51.8, topic: 'solar-system',
+            labelText: "Oxford", labelDx: -9, labelDy: 12, labelAnchor: 'end',
+        },
+        {
             name: "Hawaii / IfA", loc: "Honolulu, USA",
             lon: -157.8, lat: 21.3, topic: 'solar-system',
             labelText: "Hawaii / IfA", labelDx: 8, labelDy: 12, labelAnchor: 'start',
@@ -109,6 +114,11 @@
             name: "Univ. of Queensland", loc: "Brisbane, Australia",
             lon: 153.0, lat: -27.5, topic: 'general',
             labelText: "Queensland", labelDx: -9, labelDy: -8, labelAnchor: 'end',
+        },
+        {
+            name: "NAOC", loc: "Beijing, China",
+            lon: 116.4, lat: 39.9, topic: 'general',
+            labelText: "NAOC", labelDx: 8, labelDy: -7, labelAnchor: 'start',
         },
     ];
 
